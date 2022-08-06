@@ -1,0 +1,26 @@
+{
+  "name": "book-search-engine-mern-",
+  "version": "1.0.0",
+  "description": "A book search engine that uses GraphQL API built with Apollo server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js --ignore client",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louieiply/Book-Search-Engine-MERN-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/louieiply/Book-Search-Engine-MERN-/issues"
+  },
+  "homepage": "https://github.com/louieiply/Book-Search-Engine-MERN-#readme"
+}
