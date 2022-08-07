@@ -3,7 +3,7 @@ A book search engine that uses GraphQL API built with Apollo server. The app was
 
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Deployed Link [Here](https://book-search-engine-mern-ap.herokuapp.com/)
 
 ## Available Scripts
 
